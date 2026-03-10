@@ -1,0 +1,33 @@
+# Research Paper Summarization Agent — Streamlit edition
+# Python 3.10+
+
+# Web UI
+streamlit>=1.35.0
+
+# PDF parsing
+pypdf>=3.17.0
+
+# LangChain
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+
+# Vector store
+faiss-cpu>=1.7.4
+
+# OpenAI SDK (used directly for chat + Groq via openai-compat)
+openai>=1.30.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Env file loading
+python-dotenv>=1.0.0
+
+# Numpy (required by FAISS)
+numpy>=1.24.0
+
+# Optional provider SDKs (install only what you need)
+# google-generativeai>=0.5.0    # for Gemini
+# langchain-google-genai>=0.1.0 # for Gemini embeddings
+# anthropic>=0.25.0             # for Anthropic
