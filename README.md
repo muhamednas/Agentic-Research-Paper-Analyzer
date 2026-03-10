@@ -16,7 +16,7 @@
 
 | Main Interface | Analysis Results |
 |---|---|
-| ![UI](images/app_interface.png) | ![Results](images/results_view.png) |
+| ![UI](app_interface.png) | ![Results](results_view.png) |
 
 ---
 
